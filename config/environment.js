@@ -3,7 +3,7 @@
 module.exports = function (environment) {
   'use strict';
   var ENV = {
-    modulePrefix: 'Fin',
+    modulePrefix: 'fin',
     environment: environment,
     rootURL: '/',
     locationType: 'auto',
@@ -50,7 +50,7 @@ module.exports = function (environment) {
   }
 
   if (environment === 'production') {
-    ENV.rootURL = '/Fin';
+    ENV.rootURL = '/fin';
     ENV.locationType = 'hash';
     ENV.apiHost = 'https://fin-api.herokuapp.com/';
   }
